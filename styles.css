@@ -1,0 +1,169 @@
+/* Estilos personalizados */
+.bg-black-light {
+  background-color: #333;
+  color: white;
+}
+
+/*Estilos nav*/
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+  width: 24px;
+  height: 2px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none;
+}
+
+.d-flex .nav-link {
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+/* Estilos Header */
+.header {
+  background-image: url('fondo-barberia.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Alineación centrada del contenido */
+  padding: 0 20px; /* Agregar espaciado horizontal */
+  color: #ffffff; /* Color del texto */
+}
+
+.text-lema {
+  font-size: 50px;
+  margin-bottom: 20px; /* Agregar espacio inferior */
+}
+
+.text-sublema {
+  font-size: 25px;
+  margin-bottom: 40px; /* Agregar espacio inferior */
+}
+
+.btn-primary {
+  font-size: 20px;
+  padding: 12px 30px;
+}
+
+
+/* Estilos de secciones */
+.section-spacing {
+  margin-top: 100px;
+}
+
+/* Estilos específicos para la sección de servicios */
+#servicios .card {
+  margin-bottom: 20px;
+  border: none; /* Quita el borde predeterminado de las tarjetas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil a las tarjetas */
+}
+
+#servicios .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#servicios .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Agrega un espacio inferior entre el título y el texto */
+}
+
+#servicios .card-text {
+  font-size: 16px;
+  margin-bottom: 20px; /* Agrega un espacio inferior entre el texto y el botón */
+}
+
+#servicios .btn-primary {
+  font-size: 16px;
+  padding: 8px 20px; /* Ajusta el espaciado del botón */
+}
+
+
+/* Estilos específicos para la sección de contacto */
+#contacto .col-md-6 {
+  margin-bottom: 20px;
+}
+
+#contacto form {
+  margin-top: 20px;
+}
+
+#contacto .form-label {
+  font-weight: bold;
+}
+
+#contacto .btn-primary {
+  font-size: 16px;
+}
+
+
+/* Estilos específicos para la sección de nosotros */
+#nosotros .col-md-6 img {
+  max-width: 100%;
+}
+
+#nosotros h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#nosotros p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilos específicos para el footer */
+footer {
+  padding: 40px 0;
+}
+
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer p {
+  margin-bottom: 8px;
+}
